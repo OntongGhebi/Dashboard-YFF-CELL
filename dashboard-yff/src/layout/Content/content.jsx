@@ -1,8 +1,11 @@
 import "./content.css";
+import ContentTop from "../../components/ContentTop/ContentTop";
 
 export const Content = () => {
   return (
-    <div>content</div>
+    <div className="main-content">
+      <ContentTop />
+    </div>
   )
 }
 
