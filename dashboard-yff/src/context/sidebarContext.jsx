@@ -6,6 +6,7 @@ const initialState = {
     isSidebarOpen: false
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const SidebarContext = createContext({});
 export const SidebarProvider = ({ children }) => {
     const [state, dispatch] = useReducer(reducer, initialState);
