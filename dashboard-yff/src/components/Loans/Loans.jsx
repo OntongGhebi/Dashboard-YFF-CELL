@@ -18,7 +18,7 @@ const Loans = () => {
               <circle cx="105" cy="105" r="50" style = {{"--percent": "50"}}></circle>
             </svg>
             <div className="number">
-              <h3>50<span>%</span></h3>
+              <h3>60<span>%</span></h3>
             </div>
           </div>
         </div>
@@ -29,7 +29,7 @@ const Loans = () => {
           </li>
           <li className="data-item text-silver-v1">
             <span className="data-item-text">Target Reached</span>
-            <span className="data-item-value">$275, 000</span>
+            <span className="data-item-value">$180, 000</span>
           </li>
         </ul>
       </div>

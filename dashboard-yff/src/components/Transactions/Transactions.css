@@ -34,3 +34,8 @@
 .grid-c2 .grid-item-r span{
     font-weight: 500;
 }
+@media screen and (max-width: 768px){
+    .grid-c2{
+        margin-top: 20px;
+    }
+}
